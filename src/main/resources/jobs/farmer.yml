@@ -190,7 +190,11 @@ Farmer:
       income: 1.0
       points: 1.0
       experience: 1.0
-    pumpkin-7:
+    pumpkin:
+      income: 0.5
+      points: 0.5
+      experience: 1.0
+    melon:
       income: 0.5
       points: 0.5
       experience: 1.0
@@ -270,6 +274,34 @@ Farmer:
       income: 2
       points: 2
       experience: 2.0
+    cornflower:
+      income: 2
+      points: 2
+      experience: 2.0
+    lily_of_the_valley:
+      income: 2
+      points: 2
+      experience: 2.0
+    sunflower:
+      income: 2
+      points: 2
+      experience: 2.0
+    lilac:
+      income: 2
+      points: 2
+      experience: 2.0
+    rose_bush:
+      income: 2
+      points: 2
+      experience: 2.0
+    peony:
+      income: 2
+      points: 2
+      experience: 2.0
+    wither_rose:
+      income: 5
+      points: 5
+      experience: 8.0
     brown_mushroom:
       income: 1
       points: 1
@@ -278,10 +310,38 @@ Farmer:
       income: 1
       points: 1
       experience: 1.0
+    mushroom_stem:
+      income: 1
+      points: 1
+      experience: 1.0
+    crimson_fungus:
+      income: 3
+      points: 3
+      experience: 3.0
+    warped_fungus:
+      income: 3
+      points: 3
+      experience: 3.0
+    crimson_roots:
+      income: 1
+      points: 1
+      experience: 1.0
+    warped_roots:
+      income: 1
+      points: 1
+      experience: 1.0
     vine:
       income: 1
       points: 1
       experience: 1.0
+    twisting_vines:
+      income: 3
+      points: 3
+      experience: 3.0
+    weeping_vines:
+      income: 3
+      points: 3
+      experience: 3.0
     cactus:
       income: 1
       points: 1
@@ -290,6 +350,154 @@ Farmer:
       income: 1
       points: 1
       experience: 1.0
+    sweet_berry_bush:
+      income: 0.25
+      points: 0.5
+      experience: 0.5
+    moss_block:
+      income: 0.5
+      points: 0.5
+      experience: 1.0
+    moss_carpet:
+      income: 0.25
+      points: 0.25
+      experience: 0.5
+    azalea:
+      income: 1
+      points: 1
+      experience: 1.0
+    flowering_azalea:
+      income: 1
+      points: 1
+      experience: 1.0
+    hanging_roots:
+      income: 1
+      points: 1
+      experience: 1.0
+    glow_lichen:
+      income: 1
+      points: 1
+      experience: 1.0
+    cave_vines:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    big_dripleaf_stem:
+      income: 0.25
+      points: 0.5
+      experience: 0.5
+    big_dripleaf:
+      income: 0.25
+      points: 0.5
+      experience: 0.5
+    small_dripleaf:
+      income: 0.25
+      points: 0.5
+      experience: 0.5
+    kelp_plant:
+      income: 0.01
+      points: 0.1
+      experience: 0.05
+    seagrass:
+      income: 0.05
+      points: 0.2
+      experience: 0.1
+    sea_pickle:
+      income: 0.05
+      points: 0.2
+      experience: 0.1
+    brain_coral_block:
+      income: 5
+      points: 5
+      experience: 5.0
+    brain_coral:
+      income: 2
+      points: 2
+      experience: 2.0
+    brain_coral_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    brain_coral_wall_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    bubble_coral_block:
+      income: 5
+      points: 5
+      experience: 5.0
+    bubble_coral:
+      income: 2
+      points: 2
+      experience: 2.0
+    bubble_coral_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    bubble_coral_wall_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    fire_coral_block:
+      income: 5
+      points: 5
+      experience: 5.0
+    fire_coral:
+      income: 2
+      points: 2
+      experience: 2.0
+    fire_coral_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    fire_coral_wall_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    horn_coral_block:
+      income: 5
+      points: 5
+      experience: 5.0
+    horn_coral:
+      income: 2
+      points: 2
+      experience: 2.0
+    horn_coral_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    horn_coral_wall_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    tube_coral_block:
+      income: 5
+      points: 5
+      experience: 5.0
+    tube_coral:
+      income: 2
+      points: 2
+      experience: 2.0
+    tube_coral_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    tube_coral_wall_fan:
+      income: 2
+      points: 2
+      experience: 2.0
+    grass:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    fern:
+      income: 0.01
+      points: 0.01
+      experience: 0.01
+    bamboo:
+      income: 0.1
+      points: 0.5
+      experience: 0.5
   Place:
     wheat:
       income: 1
@@ -328,3 +536,23 @@ Farmer:
       income: 7.5
       points: 7.5
       experience: 7.5
+    Sheep:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Cow:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    mushroom_cow:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Pig:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
+    Chicken:
+      income: 4.0
+      points: 4.0
+      experience: 5.0
