@@ -63,6 +63,10 @@ Miner:
       income: 1
       points: 1
       experience: 1
+    deepslate:
+      income: 2
+      points: 2
+      experience: 2
     sandstone:
       income: 0.15
       points: 0.15
