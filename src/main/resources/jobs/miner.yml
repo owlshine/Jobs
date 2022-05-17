@@ -46,6 +46,18 @@ Miner:
       income: 0.25
       points: 0.25
       experience: 0.5
+		netherrack:
+      income: 0.01
+      points: 0.01
+      experience: 0.2
+		blackstone:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+		basalt:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
   Break:
     andesite:
       income: 1
@@ -63,6 +75,14 @@ Miner:
       income: 1
       points: 1
       experience: 1
+		tuff:
+      income: 1
+      points: 1
+      experience: 1
+    deepslate:
+      income: 2.5
+      points: 2
+      experience: 2.5
     sandstone:
       income: 0.15
       points: 0.15
@@ -115,6 +135,10 @@ Miner:
       income: 6
       points: 5
       experience: 3
+		nether_gold_ore:
+      income: 6.5
+      points: 5
+      experience: 4
     lapis_ore:
       income: 7.5
       points: 6
@@ -147,6 +171,10 @@ Miner:
       income: 5
       points: 5
       experience: 5
+		crying_obsidian:
+      income: 10
+      points: 7
+      experience: 7
     cobblestone_wall:
       income: 2.5
       points: 2.5
@@ -171,6 +199,14 @@ Miner:
       income: 0.1
       points: 0.1
       experience: 0.1
+		crimson_nylium:
+      income: 0.25
+      points: 0.2
+      experience: 0.2
+		warped_nylium:
+      income: 0.25
+      points: 0.2
+      experience: 0.2
     prismarine:
       income: 2.5
       points: 2.5
@@ -183,31 +219,155 @@ Miner:
       income: 2.5
       points: 2.5
       experience: 2.5
+		calcite:
+      income: 1
+      points: 1.5
+      experience: 1.5
+		amethyst_block:
+      income: 2.5
+      points: 2.5
+      experience: 2.5
+		amethyst_cluster:
+      income: 1
+      points: 1
+      experience: 2
+		dripstone_block:
+			income: 2
+			points: 2
+			experience: 2
+		blackstone:
+      income: 3
+      points: 3
+      experience: 3
+		gilded_blackstone:
+      income: 5
+      points: 4
+      experience: 5
+		basalt:
+      income: 3
+      points: 3
+      experience: 3
+		smooth_basalt:
+      income: 2
+      points: 2
+      experience: 2
+		ancient_debris:
+      income: 25
+      points: 25
+      experience: 50
+		magma_block:
+      income: 0.5
+      points: 0.25
+      experience: 0.25
+		bone_block:
+      income: 1
+      points: 2
+      experience: 2
+		end_stone:
+			income: 5
+			points: 5
+			experience: 5
+		terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		red_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		orange_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		yellow_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		white_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		light_gray_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
+		brown_terracotta:
+			income: 1.5
+			points: 2
+			experience: 2
   Place:
     rail:
       income: 2.0
       points: 2.0
       experience: 2.0
+		activator_rail:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+		detector_rail:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+		powered_rail:
+      income: 2.0
+      points: 2.0
+      experience: 2.0
+    coal_ore:
+      income: -3
+      points: -2
+      experience: -2
+    deepslate_coal_ore:
+      income: -4
+      points: -3
+      experience: -3
+    redstone_ore:
+      income: -2.5
+      points: -2
+      experience: -2
+    deepslate_redstone_ore:
+      income: -3.5
+      points: -3
+      experience: -3
+    copper_ore:
+      income: -3.5
+      points: -3
+      experience: -2
+    deepslate_copper_ore:
+      income: -4.5
+      points: -4
+      experience: -3
     iron_ore:
-      income: -5.0
-      points: -5
-      experience: -5.0
+      income: -3.5
+      points: -3
+      experience: -2
     deepslate_iron_ore:
-      income: -5.0
-      points: -5
-      experience: -5.0
+      income: -4.5
+      points: -4
+      experience: -3
     gold_ore:
-      income: -6.0
-      points: -6
-      experience: -6.0
+      income: -5
+      points: -4
+      experience: -2
     deepslate_gold_ore:
-      income: -6.0
+      income: -6
+      points: -5
+      experience: -3
+		nether_gold_ore:
+      income: -6
+      points: -5
+      experience: -3
+    lapis_ore:
+      income: -7.5
       points: -6
-      experience: -6.0
+      experience: -2
+    deepslate_lapis_ore:
+      income: -8.5
+      points: -7
+      experience: -3
     diamond_ore:
-      income: -10.0
+      income: -10
       points: -10
-      experience: -10.0
+      experience: -10
     deepslate_diamond_ore:
       income: -12.5
       points: -12.5
@@ -220,6 +380,10 @@ Miner:
       income: -17.5
       points: -17.5
       experience: -35
+    nether_quartz_ore:
+      income: -2.5
+      points: -2.5
+      experience: -2.5
   Kill:
     Player:
       income: 7.5
