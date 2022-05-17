@@ -42,10 +42,30 @@ Digger:
       income: 0.25
       points: 0.25
       experience: 0.25
+    farmland:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    dirt_path:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
     grass_block:
       income: 0.3
       points: 0.3
       experience: 0.3
+    podzol:
+      income: 0.3
+      points: 0.3
+      experience: 0.3
+    mycelium:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    rooted_dirt:
+      income: 1
+      points: 1
+      experience: 1
     gravel:
       income: 1
       points: 1
@@ -58,6 +78,47 @@ Digger:
       income: 1
       points: 1
       experience: 1.0
+    snow:
+      income: 0.25
+      points: 0.25
+      experience: 0.25
+    powdered_snow:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    soul_sand:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+    soul_soil:
+      income: 0.5
+      points: 0.5
+      experience: 0.5
+  Place:
+    dirt:
+      income: -0.25
+      points: -0.25
+      experience: -0.25
+    grass_block:
+      income: -0.3
+      points: -0.3
+      experience: -0.3
+    gravel:
+      income: -1
+      points: -1
+      experience: -1.0
+    sand:
+      income: -0.4
+      points: -0.4
+      experience: -0.5
+    soul_sand:
+      income: -0.5
+      points: -0.5
+      experience: -0.5
+    soul_soil:
+      income: -0.5
+      points: -0.5
+      experience: -0.5
   Kill:
     Player:
       income: 7.5
